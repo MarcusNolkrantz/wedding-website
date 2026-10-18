@@ -1,5 +1,5 @@
 import Image from "next/image";
-import weddingRings from "../../Images/wedding-rings.svg";
+import weddingRings from "../../public/wedding-rings.svg";
 
 const programme = [
   {

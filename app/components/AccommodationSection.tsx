@@ -1,7 +1,7 @@
 export default function AccommodationSection() {
   return (
-    <section id="accommodation" className="scroll-mt-20 space-y-6">
-      <h2>Boende</h2>
+    <>
+      <h3 className="pt-6 text-2xl font-semibold leading-tight">Boende</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo
         ligula eget dolor. Aenean massa cum sociis natoque penatibus et magnis
@@ -20,6 +20,6 @@ export default function AccommodationSection() {
         Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean
         leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
       </p>
-    </section>
+    </>
   );
 }

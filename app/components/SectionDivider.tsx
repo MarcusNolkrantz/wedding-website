@@ -1,5 +1,5 @@
 import Image from "next/image";
-import dividerImage from "../../Images/gotland-divider.svg";
+import dividerImage from "../../public/gotland-divider.svg";
 
 export default function SectionDivider() {
   return (

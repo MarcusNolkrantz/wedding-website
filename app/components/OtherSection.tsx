@@ -1,5 +1,6 @@
 import Image from "next/image";
-import raukImage from "../../Images/rauk.jpg";
+import raukImage from "../../public/rauk.jpg";
+import AccommodationSection from "./AccommodationSection";
 
 export default function OtherSection() {
   return (
@@ -21,6 +22,7 @@ export default function OtherSection() {
         alt="Rauk på Gotland"
         className="mx-auto aspect-4/3 w-full max-w-2xl rounded-lg object-cover ring-1 ring-[#a7a29a] shadow-[0_10px_30px_rgba(63,51,39,0.12)]"
       />
+      <AccommodationSection />
       <h3 className="pt-6 text-2xl font-semibold leading-tight">Klädsel</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio

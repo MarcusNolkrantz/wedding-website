@@ -1,20 +1,12 @@
 import Image from "next/image";
-import { Playfair_Display } from "next/font/google";
-import AccommodationSection from "./components/AccommodationSection";
-import HomeSection from "./components/HomeSection";
 import Navigation from "./components/Navigation";
+import HomeSection from "./components/HomeSection";
 import OtherSection from "./components/OtherSection";
 import RsvpSection from "./components/RsvpSection";
 import ScheduleSection from "./components/ScheduleSection";
 import SectionDivider from "./components/SectionDivider";
-import weddingImage from "../Images/fb1840a1d53fe9d5a61bf51516cde19c.jpeg";
-import kapstadenImage from "../Images/Kapstaden.jpeg";
-import murImage from "../Images/mur.jpg";
-
-const playfairDisplay = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["600"],
-});
+import weddingImage from "../public/fb1840a1d53fe9d5a61bf51516cde19c.jpeg";
+import kapstadenImage from "../public/Kapstaden.jpeg";
 
 export default function Home() {
   return (
@@ -23,9 +15,7 @@ export default function Home() {
         id="site-header"
         className="sticky top-0 z-10 border-b border-[#a7a29a] bg-[#fff8df]"
       >
-        <h1
-          className={`${playfairDisplay.className} mx-auto max-w-3xl px-6 pt-4 text-center text-4xl leading-tight sm:text-5xl`}
-        >
+        <h1 className="mx-auto max-w-3xl px-6 pt-4 text-center text-2xl leading-tight sm:text-4xl">
           Matilda och Marcus
         </h1>
         <p className="mx-auto max-w-3xl px-6 pt-1 text-center text-sm font-medium uppercase text-[#2f6473]">
@@ -46,8 +36,6 @@ export default function Home() {
         <ScheduleSection />
         <SectionDivider />
         <RsvpSection />
-        <SectionDivider />
-        <AccommodationSection />
         <SectionDivider />
         <OtherSection />
         <SectionDivider />

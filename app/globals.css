@@ -23,12 +23,23 @@ html {
 body {
 	background-color: #fff8df;
 	color: #3f3327;
+	font-family: Georgia, serif;
 	font-size: 1.125rem;
 	line-height: 1.7;
 }
 
 header {
 	transform: translateZ(0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400 !important;
+	text-transform: uppercase;
 }
 
 main h1 {
