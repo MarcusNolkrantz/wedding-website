@@ -7,7 +7,7 @@ export default function OtherSection() {
     <section id="other" className="scroll-mt-20 space-y-6">
       <h2>Övrigt</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis
+        Lorem ipsum dolor sita amet, consectetur adipiscing elit. Duis sagittis
         ipsum praesent mauris fusce nec tellus sed augue semper porta. Mauris
         massa vestibulum lacinia arcu eget nulla.
       </p>
