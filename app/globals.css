@@ -21,8 +21,10 @@ html {
 }
 
 body {
-	background-color: #fff8df;
-	color: #3f3327;
+	/* background-color: #fff8df; */
+	background-color: #faf6ef;
+	/* color: #3f3327; */
+	color: #4f6145;
 	font-family: Georgia, serif;
 	font-size: 1.125rem;
 	line-height: 1.7;

@@ -6,7 +6,7 @@ const programme = [
     day: "Fredag",
     description: "Vi inleder helgen tillsammans med en gemensam middag för er som är på plats.",
     events: [
-      ["18:00-20:00", "Gemensam middag", "Vi bjuder in till middag på restaurang Placeholder i Visby."],
+      ["18:00-\n20:00", "Gemensam middag", "Vi bjuder in till middag på restaurang Placeholder i Visby."],
     ],
   },
   {
@@ -34,7 +34,7 @@ export default function ScheduleSection() {
       <div className="grid gap-10">
         {programme.map(({ day, description, events }) => (
           <article key={day} className="border-t-2 border-[#a7a29a] pt-4">
-            <h3 className="text-center text-2xl font-semibold text-[#1f5362]">
+            <h3 className="text-center text-2xl font-normal text-stone-800">
               {day}
             </h3>
             <p className="mx-auto mt-2 max-w-sm text-center text-base text-stone-600">
@@ -44,9 +44,9 @@ export default function ScheduleSection() {
               {events.map(([time, title, detail, icon]) => (
                 <li
                   key={`${day}-${time}`}
-                  className="grid grid-cols-[8rem_1fr] gap-4 border-t border-[#d6d1c8] py-4"
+                  className="grid grid-cols-[5rem_1fr] gap-2 border-t border-[#d6d1c8] py-4"
                 >
-                  <time className="whitespace-nowrap font-semibold tabular-nums text-[#2f6473]">
+                  <time className="whitespace-pre-line font-normal tabular-nums text-stone-800">
                     {time}
                   </time>
                   <div>

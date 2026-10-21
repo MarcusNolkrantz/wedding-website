@@ -5,7 +5,7 @@ import OtherSection from "./components/OtherSection";
 import RsvpSection from "./components/RsvpSection";
 import ScheduleSection from "./components/ScheduleSection";
 import SectionDivider from "./components/SectionDivider";
-import weddingImage from "../public/fb1840a1d53fe9d5a61bf51516cde19c.jpeg";
+import weddingImage from "../public/matildaochmarcus.png";
 import kapstadenImage from "../public/Kapstaden.jpeg";
 
 export default function Home() {
@@ -13,12 +13,14 @@ export default function Home() {
     <>
       <header
         id="site-header"
-        className="sticky top-0 z-10 border-b border-[#a7a29a] bg-[#fff8df]"
+        className="sticky top-0 z-10 border-b border-[#a7a29a] bg-[#faf6ef]"
       >
-        <h1 className="mx-auto max-w-3xl px-6 pt-4 text-center text-2xl leading-tight sm:text-4xl">
+        <h1
+          className="mx-auto max-w-3xl px-6 pt-4 text-center text-2xl leading-tight sm:text-4xl"
+        >
           Matilda och Marcus
         </h1>
-        <p className="mx-auto max-w-3xl px-6 pt-1 text-center text-sm font-medium uppercase text-[#2f6473]">
+        <p className="mx-auto max-w-3xl px-6 pt-1 text-center text-sm font-medium uppercase text-[#4f6145]">
           Västerhejde kyrka, Gotland
         </p>
         <Navigation />
@@ -28,7 +30,7 @@ export default function Home() {
         <Image
           src={weddingImage}
           alt="Matilda och Marcus"
-          className="mx-auto mb-24 aspect-square w-full max-w-md transform-gpu rounded-full object-cover ring-2 ring-[#d8a13f] shadow-[0_10px_30px_rgba(124,74,13,0.14)]"
+          className="mx-auto mb-24 h-auto w-full max-w-3xl"
           priority
         />
         <HomeSection />
