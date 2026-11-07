@@ -7,6 +7,7 @@ import ScheduleSection from "./components/ScheduleSection";
 import SectionDivider from "./components/SectionDivider";
 import weddingImage from "../public/matildaochmarcus.png";
 import kapstadenImage from "../public/Kapstaden.jpeg";
+import logoImage from "../public/M&Mlogo.png";
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
         <Navigation />
       </header>
 
-      <main className="mx-auto max-w-3xl px-6 pb-56 pt-12">
+      <main className="mx-auto max-w-3xl px-6 pb-24 pt-12">
         <Image
           src={weddingImage}
           alt="Matilda och Marcus"
@@ -47,6 +48,15 @@ export default function Home() {
           className="mx-auto aspect-4/3 w-full max-w-2xl rounded-lg object-cover ring-1 ring-[#a7a29a] shadow-[0_10px_30px_rgba(63,51,39,0.12)]"
         />
       </main>
+      <footer className="border-t border-[#a7a29a] px-6 py-12 text-center">
+        <Image
+          src={logoImage}
+          alt="Matilda och Marcus"
+          className="mx-auto h-auto w-24"
+        />
+        <blockquote className="mx-auto mt-6 max-w-lg text-lg italic text-stone-700">
+        </blockquote>
+      </footer>
     </>
   );
 }

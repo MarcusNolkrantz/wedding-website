@@ -3,22 +3,7 @@ export default function AccommodationSection() {
     <>
       <h3 className="pt-6 text-2xl font-semibold leading-tight">Boende</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo
-        ligula eget dolor. Aenean massa cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus.
-      </p>
-      <p>
-        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-        Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-        aliquet nec, vulputate eget, arcu.
-      </p>
-      <p>
-        In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-        dictum felis eu pede mollis pretium. Integer tincidunt cras dapibus.
-      </p>
-      <p>
-        Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean
-        leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+        Boende bokar ni själva. Vi rekommenderar att bo i centrala Visby. Det finns även lägenheter på Nygårds herrgård där festen hålls, 4 eller 6 bäddar för 2000 respektive 3000 kr/natt. Hör av er till oss om ni vill bo där senast 1 mars.
       </p>
     </>
   );

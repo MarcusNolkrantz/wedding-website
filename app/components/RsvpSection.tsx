@@ -4,7 +4,7 @@ export default function RsvpSection() {
       <h2>OSA</h2>
       <div className="mx-auto max-w-xl space-y-4 text-center">
         <p>
-          Vi hoppas att ni vill fira med oss! OSA senast den 1 april 2027 genom
+          Vi hoppas att ni vill fira med oss! OSA senast den 1 mars 2027 genom
           att mejla{" "}
           <a
             href="mailto:matildaochmarcus2027@gmail.com?subject=Bröllop"
@@ -13,9 +13,11 @@ export default function RsvpSection() {
             matildaochmarcus2027@gmail.com
           </a>
           .
+          
+          Ange vilka som kommer, eventuella matpreferenser och om ni kommer att delta även på fredagen.
         </p>
         <p className="text-stone-600">
-          Har ni frågor inför helgen är ni också varmt välkomna att använda samma
+          Har ni frågor inför helgen är ni varmt välkomna att använda samma
           e-postadress.
         </p>
       </div>
