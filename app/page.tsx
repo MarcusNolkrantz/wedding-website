@@ -6,7 +6,7 @@ import RsvpSection from "./components/RsvpSection";
 import ScheduleSection from "./components/ScheduleSection";
 import SectionDivider from "./components/SectionDivider";
 import weddingImage from "../public/matildaochmarcus.png";
-import kapstadenImage from "../public/Kapstaden.jpeg";
+import GotlandImage from "../public/Gotland.jpeg";
 import logoImage from "../public/M&Mlogo.png";
 
 export default function Home() {
@@ -43,9 +43,9 @@ export default function Home() {
         <OtherSection />
         <SectionDivider />
         <Image
-          src={kapstadenImage}
-          alt="Utsikt över Kapstaden"
-          className="mx-auto aspect-4/3 w-full max-w-2xl rounded-lg object-cover ring-1 ring-[#a7a29a] shadow-[0_10px_30px_rgba(63,51,39,0.12)]"
+          src={GotlandImage}
+          alt="Matilda och Marcus på Gotland"
+          className="mx-auto aspect-4/3 w-full max-w-xl rounded-lg object-cover ring-1 ring-[#a7a29a] shadow-[0_10px_30px_rgba(63,51,39,0.12)]"
         />
       </main>
       <footer className="border-t border-[#a7a29a] px-6 py-12 text-center">

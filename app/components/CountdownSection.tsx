@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useSyncExternalStore } from "react";
-import murImage from "../../public/mur.jpg";
+import SydafrikaImage from "../../public/Sydafrika.jpeg";
 
 const weddingTime = new Date("2027-05-29T15:00:00+02:00").getTime();
 
@@ -55,8 +55,8 @@ export default function CountdownSection() {
         Välkomna på vårt bröllop! Vi ser fram emot att fira med er.
       </p>
       <Image
-            src={murImage}
-            alt="Mur på Gotland"
+            src={SydafrikaImage}
+            alt="Matilda och Marcus i Sydafrika"
             className="mb-5 aspect-video w-full rounded-lg object-cover ring-1 ring-[#a7a29a] shadow-[0_10px_30px_rgba(63,51,39,0.12)]"
   />
     </div>

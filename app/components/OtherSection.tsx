@@ -1,5 +1,5 @@
 import Image from "next/image";
-import visbyImage from "../../public/VisbyOverview.jpg";
+import RiksgransenImage from "../../public/Riksgransen.jpeg";
 import AccommodationSection from "./AccommodationSection";
 
 export default function OtherSection() {
@@ -18,9 +18,9 @@ export default function OtherSection() {
           
       </p>
       <Image
-        src={visbyImage}
-        alt="Visby Overview"
-        className="mx-auto aspect-4/3 w-full max-w-2xl rounded-lg object-cover ring-1 ring-[#a7a29a] shadow-[0_10px_30px_rgba(63,51,39,0.12)]"
+        src={RiksgransenImage}
+        alt="Matilda och Marcus i Riksgransen"
+        className="mx-auto aspect-4/3 w-full max-w-xl rounded-lg object-cover ring-1 ring-[#a7a29a] shadow-[0_10px_30px_rgba(63,51,39,0.12)]"
       />
       <AccommodationSection />
       <h3 className="pt-6 text-2xl font-semibold leading-tight">Presenter</h3>
