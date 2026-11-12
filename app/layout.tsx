@@ -4,12 +4,12 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Matilda och Marcus Bröllop",
-  description: "Information for guests attending Matilda and Marcus's wedding.",
+  description: "Information för gäster som ska fira Matilda och Marcus bröllop.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="sv" suppressHydrationWarning>
       <head>
         <Script id="scroll-restoration" strategy="beforeInteractive">
           {`

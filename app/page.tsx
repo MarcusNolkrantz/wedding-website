@@ -54,8 +54,6 @@ export default function Home() {
           alt="Matilda och Marcus"
           className="mx-auto h-auto w-24"
         />
-        <blockquote className="mx-auto mt-6 max-w-lg text-lg italic text-stone-700">
-        </blockquote>
       </footer>
     </>
   );

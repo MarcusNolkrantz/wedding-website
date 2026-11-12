@@ -3,7 +3,7 @@ export default function RsvpSection() {
     <section id="osa" className="scroll-mt-20 space-y-6">
       <h2>OSA</h2>
       <div className="mx-auto max-w-xl space-y-4 text-center">
-        <p>
+        <p className="text-stone-700">
           Vi hoppas att ni vill fira med oss! OSA senast den 1 mars 2027 genom
           att mejla{" "}
           <a

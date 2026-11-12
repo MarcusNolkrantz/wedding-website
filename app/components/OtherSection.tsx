@@ -6,11 +6,11 @@ export default function OtherSection() {
   return (
     <section id="other" className="scroll-mt-20 space-y-6">
       <h2>Övrigt</h2>
-      <p className="text-center">
+      <p className="text-center text-stone-700">
         Här har vi samlat information om resa, boende och annan praktisk information inför bröllopet.
       </p>
       <h3 className="pt-6 text-2xl font-semibold leading-tight">Resa</h3>
-      <p>
+      <p className="text-stone-700">
         Enklast reser man till Visby med färja. Destination Gotland har släppt turerna för våren. Vi rekommenderar att boka redan nu, då de populära avgångarna kan sälja slut. Glöm inte att använda rabattkoden som finns i den fysiska inbjudan. Koden är giltig mellan 22 maj och 6 juni.
         <br />
         <br />
@@ -24,7 +24,7 @@ export default function OtherSection() {
       />
       <AccommodationSection />
       <h3 className="pt-6 text-2xl font-semibold leading-tight">Presenter</h3>
-      <p>
+      <p className="text-stone-700">
         Att ni kommer och firar vår bröllopsdag är det viktigaste för oss. Vi vill inte ha några presenter. Om ni ändå vill ge något så kommer vi starta en insamling till Cancerfonden.
       </p>
     </section>
